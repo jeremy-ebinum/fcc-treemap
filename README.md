@@ -1,8 +1,8 @@
-# Free Code Camp - Heatmap
+# Free Code Camp - Treemap
 
-Visualization of Global Monthly Land-Surface Temperatures (1753-2015), powered by D3
+Tree Map visualization of Top 100 highest grossing movies, powered by D3
 
-[View Live Website](https://jeremy-ebinum.github.io/fcc-heatmap/)
+[View Live Website](https://jeremy-ebinum.github.io/fcc-treemap/)
 
 ## usage
 
