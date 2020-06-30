@@ -1,15 +1,53 @@
 .o-wrapper {
   background-color: #fff;
+  z-index: -1;
+}
+
+svg {
+  border: 2px solid black;
+  margin-bottom: 1rem;
+}
+
+.c-d3 {
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  font-size: 2.1rem;
+  margin-bottom: 0;
+}
+
+#description {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 #tooltip {
   position: absolute;
   text-align: left;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: 400;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   background-color: #333;
   color: #fff;
   pointer-events: none;
+}
+
+.tile {
+  opacity: 0.65;
+}
+
+.legendTitle {
+  font-weight: bold;
+}
+
+.label {
+  font-size: 0.9em;
+}
+
+.tile-text {
+  font-size: 0.7rem;
+  font-weight: 700;
 }
